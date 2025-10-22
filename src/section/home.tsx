@@ -1,11 +1,11 @@
 
 const Home = () => {
   const imgLinks=[
-    {name:'NodeJs_Logo',link:'/src/assets/logoNode.png'},
-    {name:'Mongoose_Logo',link:'/src/assets/logoMongoose.svg'},
-    {name:'React_Logo',link:'/src/assets/logoReact.webp'},
-    {name:'Typescript_Logo',link:'/src/assets/logoTypescrypt.png'},
-        {name:'Talwind_Logo',link:'/src/assets/logoTailwind.webp'}
+    {name:'NodeJs_Logo',link:'assets/logoNode.png'},
+    {name:'Mongoose_Logo',link:'assets/logoMongoose.svg'},
+    {name:'React_Logo',link:'assets/logoReact.webp'},
+    {name:'Typescript_Logo',link:'assets/logoTypescrypt.png'},
+        {name:'Talwind_Logo',link:'assets/logoTailwind.webp'}
 
   ]
   return (
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       <div className="h-auto flex flex-col mx-auto md:mx-0  items-center pt-[80px]">
         <div className="w-[200px] animate-pulse h-[200px] overflow-hidden relative bg-white flex justify-center items-center rounded-full">
-        <img src="/src/assets/person.png" className="absolute -bottom-5" alt="Person" width={200} height={200}/>
+        <img src="assets/person.png" className="absolute -bottom-5" alt="Person" width={200} height={200}/>
       </div>
       <h2 className="highLight title text-2xl text-center mt-3">Qutaibah Mohamed</h2>
       </div>

@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="w-[90%]  md:w-[50%] order-1 md:order-2 ">
-            <img src="/src/assets/back-contact.jpg" className="rounded-xl" alt="background contact " loading="lazy"/>
+            <img src="assets/back-contact.jpg" className="rounded-xl" alt="background contact " loading="lazy"/>
         </div>
       </div>
       <div>
