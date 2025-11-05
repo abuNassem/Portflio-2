@@ -3,7 +3,7 @@ import CardProject from "../component/cardProject"
 const Project = () => {
     const project=[{
         name:'Memo shop',
-        img:'assets/memoShop.png',
+        img:'/assets/memo.png',
         link:'https://memo-shop1.netlify.app/product'
     },
     {
