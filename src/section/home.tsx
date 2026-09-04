@@ -20,8 +20,9 @@ const Home = () => {
         </div>
         <div className="flex justify-start gap-5">
           <button onClick={() => { window.location.hash = 'Contact' }} className="text-black bg-white duration-[0.5s]  border-zinc-50 hover:bg-white/60  rounded-[30px] btn">Get in touch</button>
-          <a href="/CV_Qutaibah.pdf" download={true} ><button className="text-white hover:bg-white  duration-[0.5s]  border-zinc-50  rounded-[30px] hover:text-black btn">Download CV</button></a>
-
+          <a href="https://drive.google.com/file/d/1akJtcJzpQ5SpEOZNxAKpzxauDqMO3ZSI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button className="text-white hover:bg-white  duration-[0.5s]  border-zinc-50  rounded-[30px] hover:text-black btn">Download CV</button>
+          </a>
         </div>
       </div>
       <div className="h-auto flex flex-col mx-auto md:mx-0  items-center pt-[80px]">

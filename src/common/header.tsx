@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="w-[95%] fixed z-[30] bg-black h-[60px] mx-5 rounded-sm flex items-center px-4 top-2 ">
       <div className="flex h-[70%] w-full ">
-        <div className="w-[20%]  flex items-center  highLight">logo</div>
+        <div className="w-[20%]  flex items-center  highLight">Q</div>
         <div className="w-[80%] h-full text-white flex justify-end items-center">
           <ul className="flex h-full w-full  items-center justify-center gap-10 hidden md:flex">
             {sections.map((ele, index) => (
